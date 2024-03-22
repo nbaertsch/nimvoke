@@ -1,3 +1,9 @@
 nimcache/
 nimblecache/
 htmldocs/
+
+bin/
+*.exe
+
+testresults/
+
