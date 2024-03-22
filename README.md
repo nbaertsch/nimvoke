@@ -1,5 +1,5 @@
 # nimvoke
-Indirect syscalls + DInvoke and made simple.
+Indirect syscalls + DInvoke made simple.
 
 Designed to be imported directly into your own Nim projects, _nimvoke_ uses macros to absract away the details of making indirect system calls and DInvoke-style delegate declarations. This library is meant to be easy to use and relatively op-sec friendly out-of-the-box. Function and library names used in the macro's are hashed at compile-time, and SSN's and `syscall` instruction addresses are retrieved regardless of any hooks. All syscalls go through the correct `syscall` instruction in `ntdll.dll`.
 
