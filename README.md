@@ -81,6 +81,7 @@ This trampoline is allocated on a new private heap.
 If you want to run code before this syscall initialization code (like for sandbox evasion or enviornmental keying), you need to call it before the `import nimvoke/syscalls` statement in your code.
 
 # Future Work
+- [ ] x86 support
 - [ ] add more robust error handling and load libraries if they are missing from the process
 - [ ] include synthetic stack-frame spoofing
 
