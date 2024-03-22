@@ -11,5 +11,5 @@ srcDir        = "src"
 
 requires "nim >= 2.0.0"
 requires "winim >= 3.9.2"
-requires "checksums"
-requires "ptr_math"
+requires "checksums >= 0.1.0"
+requires "ptr_math >= 0.3.0"
